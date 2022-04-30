@@ -20,10 +20,11 @@ CLASSIFIERS = [
 
 setup(
     name='faker_pandas',
-    version='0.1.0',
+    version='0.1.2',
     license='MIT',
     description='Adds Provider for Faker library to Generate randomized Pandas DataFrames',
     long_description=README,
+    long_description_content_type='text/markdown',
     author='Sani',
     author_email='sani@sani.love',
     url='https://github.com/nitori/faker_pandas',
@@ -33,6 +34,7 @@ setup(
     zip_safe=False,
     classifiers=CLASSIFIERS,
     project_urls={
+        'Source': 'https://github.com/nitori/faker_pandas',
         'Issue Tracker': 'https://github.com/nitori/faker_pandas/issues',
     },
     python_requires='>=3.9',
